@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    text-align: Center;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+header{
+    font-weight: bold;
+    font-size: 50px;
+}
+h1{
+    text-decoration: underline;
+}
+section > div{
+    display: inline-block;
+    width: calc(100%/4);
+    margin: 1rem;
+    border: solid 1px black
+}
+section > div> .pic{
+    background-size: cover;
+}
+.pic{
+    background-size: 50%;
+    height: 200px;
+}
+#left{
+    background-color: brown;
+}
+#left > .pic{
+    background-image: url(BarryBonds.jpeg);
+}
+#right{
+    background-color: gold;
+}
+#right > .pic{
+    background-image: url(BabeRuth.jpeg);
+}
+#center > .pic{
+    background-image: url(WillieMays.jpeg);
+}
+#short > .pic{
+    background-image: url(HonusWagner.jpeg);
+}
+#second > .pic{
+    background-image: url(RogersHornsby.jpeg);
+}
+#third > .pic{
+    background-image: url(MikeSchmidt.png);
+}
+#first > .pic{
+    background-image: url(LouGehrig.jpeg);
+}
+#pitcher{
+    background-color: greenyellow;  
+}
+#pitcher > .pic{
+    background-image: url(WalterJohnson.jpeg);
+}
+#catcher > .pic{
+    background-image: url(JohnnyBench.jpeg);
+}
+#dh > .pic{
+    background-image: url(EdgarMartinez.png);
+}
