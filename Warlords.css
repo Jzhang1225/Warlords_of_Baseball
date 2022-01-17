@@ -3,15 +3,19 @@
     text-align: Center;
 }
 body{
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
 }
 header{
     font-weight: bold;
-    font-size: 30;
+    font-size: 50px;
+}
+h1{
+    text-decoration: underline;
 }
 section > div{
-    width: calc((100%/3)-2rem);
-    float: left;
+    display: inline-block;
+    width: calc(100%/4);
     margin: 1rem;
     border: solid 1px black
 }
@@ -50,7 +54,7 @@ section > div> .pic{
     background-image: url(LouGehrig.jpeg);
 }
 #pitcher{
-    background-color: blue;  
+    background-color: greenyellow;  
 }
 #pitcher > .pic{
     background-image: url(WalterJohnson.jpeg);
